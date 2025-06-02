@@ -1,0 +1,32 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+pip-log.log
+pip-log.txt
+.tox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+
+# Editor-specific (common)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific (common)
+.DS_Store
+Thumbs.db
+
+# My personal files
+.env
+market_snapshot_*.html
